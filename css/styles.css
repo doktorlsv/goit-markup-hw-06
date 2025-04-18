@@ -1314,7 +1314,7 @@ img {
   justify-content: space-between;
 }
 
-/* .mob-menu.is-open {
+.mob-menu.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -1360,7 +1360,7 @@ img {
   display: flex;
   flex-direction: column;
   row-gap: 40px;
-} */
+}
 
 .mob-menu-social-container {
   display: flex;
