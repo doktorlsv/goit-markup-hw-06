@@ -142,8 +142,9 @@ address {
   color: #404bbf;
 }
 .address-list {
-  /* display: flex;
-  gap: 40px; */
+  display: flex;
+  gap: 40px; 
+  
 }
 
 .header {
@@ -388,7 +389,9 @@ address {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  margin-bottom: 8px;
 }
+
 
 
 
@@ -1085,6 +1088,7 @@ img {
 
   .address-top {
     display: flex;
+    justify-content: flex-end;
   }
 
   .main-section-title {
@@ -1098,7 +1102,7 @@ img {
   }
 
   .address-list {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     gap: 12px;
   }
@@ -1369,4 +1373,25 @@ img {
   flex-direction: row;
   gap: 40px;
   /* margin-top: 48px; */
+}
+
+
+
+
+
+@media screen and (max-width: 767px) {
+  .mob-menu {
+    max-width: 428px;
+    margin: 0 auto;
+  }
+}
+
+
+
+.address-list li {
+  margin-right: 40px;
+}
+
+.address-list li:last-child {
+  margin-right: 0;
 }
